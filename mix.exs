@@ -42,6 +42,7 @@ defmodule Expline.Mixfile do
 
   def package do
     [
+      organization: "kantox",
       name: @app,
       files: ["lib", "mix.exs", "README*", "LICENSE*"],
       licenses: ["MIT"],
