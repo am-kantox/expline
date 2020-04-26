@@ -42,7 +42,7 @@ defmodule Expline.Mixfile do
 
   def package do
     [
-      name: :expline,
+      name: @app,
       files: ["lib", "mix.exs", "README*", "LICENSE*"],
       licenses: ["MIT"],
       maintainers: ["Isaac Sanders", "Aleksei Matiushkin"],
